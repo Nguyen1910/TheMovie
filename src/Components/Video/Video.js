@@ -31,7 +31,7 @@ function Video(props) {
           <iframe
             className="watch-video"
             ref={iframeRef}
-            src={`http://www.youtube.com/embed/${item.key}`}
+            src={`https://www.youtube.com/embed/${item.key}`}
             title="video"
             allowFullScreen="true"
           />
