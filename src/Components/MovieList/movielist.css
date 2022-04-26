@@ -1,0 +1,43 @@
+.container_list{
+    position: relative;
+    width: 1200px;
+    margin: 40px auto;
+}
+
+.movie_list{
+    /* width: 20%; */
+}
+
+.title-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px;
+    text-transform: capitalize;
+}
+
+.title-list-movie{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.view-more{
+    border: 2px solid #fff;
+    padding: 5px 10px;
+    border-radius: 60px;
+    margin: 10px 0;
+}
+
+.view-more:hover{
+    border: 2px solid rgb(37, 152, 230);
+}
+
+.view-more a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.view-more:hover a{
+    color: rgb(37, 152, 230);
+}

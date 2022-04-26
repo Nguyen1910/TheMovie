@@ -1,0 +1,37 @@
+.container-viewmore {
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+.list_movie_type {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  margin: 80px auto 30px;
+}
+
+.m-b-3 {
+  margin-bottom: 12px;
+}
+
+.load_more {
+  display: flex;
+  background-color: rgb(201, 19, 19);
+  width: 100px;
+  padding: 10px;
+  justify-content: center;
+  color: #fff;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.load_more:hover {
+  background-color: #fff;
+  color: #000;
+}

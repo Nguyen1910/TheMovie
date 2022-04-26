@@ -1,0 +1,41 @@
+.cast_container{
+    width: 1200px;
+    margin: 40px auto;
+}
+
+.cast_title{
+    color: #fff;
+    font-size:30px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.cast{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.cast_card{
+    width: 20%;
+    padding: 12px 12px;
+    margin-bottom: 5px;
+}
+
+.cast_card img{
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    box-shadow: 0 0 1px rgba(0,0,0,0.5);
+}
+
+.cast_info{
+    width: 100%;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.cast_info_name{
+    color: #fff;
+}
